@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-    padding: 0 100px 0 100px;
+    padding: 0px 100px 0px 100px;
 }
 
 nav ul,
@@ -18,7 +18,7 @@ nav ul,
 .work-category {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 body {
@@ -29,11 +29,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 0;
 }
 
 .navbar {
     background-color: #181818;
+    padding: 10px 0;
+    width: 100%;
+    justify-content: space-between;
 }
 
 header h1,
@@ -48,14 +50,14 @@ header a,
 
 li {
     list-style: none;
-    margin-left: 30px;
+    text-align: auto;
 }
 
 a {
     text-decoration: none;
     font-size: .9rem;
     text-transform: uppercase;
-    position: relative;
+    position: center;
     top: 50%;
     bottom: 50%;
     transform: translateY(-50%);
@@ -199,6 +201,18 @@ span.m-left {
 .skills-info {
     font-size: 1.4rem;
     color: #BEBEBE;
+    max-width: 750px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.quote {
+    font-size: 1.0rem;
+    color: #ED5565;
     max-width: 750px;
     position: relative;
     left: 50%;
