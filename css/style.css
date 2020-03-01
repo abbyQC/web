@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-    padding: 0 100px 0 100px;
+    padding: 0px 100px 0px 100px;
 }
 
 nav ul,
@@ -18,7 +18,7 @@ nav ul,
 .work-category {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 body {
@@ -29,11 +29,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10px 0;
 }
 
 .navbar {
     background-color: #181818;
+    padding: 10px 0;
+    width: 100%;
+    justify-content: space-between;
 }
 
 header h1,
@@ -48,14 +50,14 @@ header a,
 
 li {
     list-style: none;
-    margin-left: 30px;
+    text-align: auto;
 }
 
 a {
     text-decoration: none;
     font-size: .9rem;
     text-transform: uppercase;
-    position: relative;
+    position: center;
     top: 50%;
     bottom: 50%;
     transform: translateY(-50%);
@@ -208,6 +210,18 @@ span.m-left {
     margin-bottom: 50px;
 }
 
+.quote {
+    font-size: 1.0rem;
+    color: #ED5565;
+    max-width: 750px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    margin-bottom: 50px;
+}
+
 .html {
     display: flex;
     flex-wrap: wrap;
@@ -285,28 +299,25 @@ button.active {
     justify-self: center;
 }
 
-form input,
-form textarea {
+form input {
     display: block;
-    width: 500px;
+    width: 400px;
     padding: 10px;
     background-color: #252627;
-    border: 1.5px solid #707070;
-    margin: 40px 0px;
+    border: 1.5px solid #ED5565;
+    margin: 10px 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     outline: none;
     font-size: 0.8rem;
-    color: #fff;
+    color: #BEBEBE;
     position: center;
     left: 50%;
     right: 50%;
 }
 
 form input:last-child {
-    width: 150px;
-    background-color: #ED5565;
     border: none;
     cursor: pointer;
 }
@@ -320,7 +331,7 @@ footer p {
     text-align: center;
     color: #707070;
     font-size: 0.8rem;
-    padding: 30px 0;
+    /*padding: 30px 0;*/
 }
 
 .showCategory {
@@ -356,4 +367,21 @@ footer p {
     border: #999999 1px solid;
     margin-left: -80px;
     margin-top: -150px;
+}
+
+.form {
+    color: #BEBEBE;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+form .message {
+    background-color: #252627;
+    border: 1.5px solid #ED5565;
+    font-size: 0.8rem;
+    color: #BEBEBE;
+    margin-top: 10px;
+    position: center;
+    margin-left: 1px;
 }
