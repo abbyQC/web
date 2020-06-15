@@ -1,25 +1,11 @@
-<!DOCTYPE html>
+{% extends "layout.html" %}
 
-<p lang="en">
-
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-        <script src="js/script.js"></script>
+{% block title %}
+    Chang Portfolio
+{% endblock %}
 
 
-
-        <link rel="stylesheet" href="css/style.css">
-        <title>Chang Portfolio</title>
-    </head>
-
-
-
-    <body>
+{% block body %}
         <div class="container navbar">
             <header>
                 <div class="lgo">
@@ -37,7 +23,7 @@
 
             <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
             <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-            <script src="like_button.js"></script>
+            <script src="{{ url_for('static', filename='js/like_button.js') }}"></script>
         </div>
         <div class="container main-info-section">
             <div class="text">
@@ -88,7 +74,7 @@
                 <a href="#contact">contact me</a>
             </div>
             <div class="profile-image">
-                <img src="profile-image.jpg" alt="">
+                <img src="{{ url_for('static', filename='images/profile-image.jpg') }}" alt="">
             </div>
         </div>
 
@@ -104,7 +90,7 @@
                 <p> I am eager regarding data analysis. Therefore, in my spare time, I have gained knowledge of data visualization and data management using R, Python, and MySQL. </p>
 
             </div>
-            <img src="dotted-shape.jpg" alt="">
+            <img src="{{ url_for('static', filename='images/dotted-shape.jpg') }}" alt="">
         </div>
 
         <div class="container skills" id="skills">
@@ -126,7 +112,7 @@
             <a href="game.html">
                 <p class="web">click to play</p>
             </a-->
-                <iframe name="Framename" src="game.html" style="-webkit-transform:scale(0.8);" width="600" height="500" frameborder="0" scrolling="auto" class="frame-area">
+                <iframe name="Framename" src="{{ url_for('game') }}" style="-webkit-transform:scale(0.8);" width="600" height="500" frameborder="0" scrolling="auto" class="frame-area">
             </iframe>
 
             </div>
@@ -152,9 +138,4 @@
 
             </form>
         </div>
-
-        <footer>
-            <hr>
-            <p>2020 Copyright. All Rights Reserved</p>
-        </footer>
-    </body>
+{% endblock %}
