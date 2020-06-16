@@ -13,7 +13,7 @@ html {
     padding: 0px 100px 0px 100px;
 }
 
-nav ul,
+ul,
 .main-info-section,
 .work-category {
     display: flex;
@@ -114,7 +114,8 @@ span.m-left {
     display: inline-block;
 }
 
-.t1 {
+.t1 .t2{
+    font-family: "JetBrains Mono";
     font-size: 0.8rem;
 }
 
@@ -384,4 +385,21 @@ form .message {
     margin-top: 10px;
     position: center;
     margin-left: 1px;
+}
+
+.jb-mono-extra-bold {
+    font-family: "JetBrains Mono";
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono- ExtraBold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-ExtraBold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+.jb-mono-regular{
+    font-family: "JetBrains Mono";
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }

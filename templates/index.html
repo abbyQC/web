@@ -6,23 +6,19 @@
 
 {% block body %}
     <header>
-        <div class="container navbar">
+        <div class="container navbar jb-mono-extra-bold">
             <div class="lgo">
                 <h1>
                     Chang
                 </h1>
             </div>
-            <nav>
+            <navbar>
                 <ul>
                     <li><a href="#about">about me</a></li>
                     <li><a href="#testimonials">testimonials</a></li>
                     <li><a href="#work">my work</a></li>
-                    <!------"like" button  ------"div id="like_button_container"></!--div-->
                 </ul>
-            </nav>
-            <!---- js for "like" button -------"script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></!----script>
-                    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-                    <script src="like_button.js"></script----->
+            </navbar>
         </div>
     </header>
     <div class="container main-info-section">
@@ -65,8 +61,11 @@
                 <span class="m-left">r</span>
                 <span class="m-left">.</span>
             </h1>
-            <p class="sub" id="t1">web development/ IOS development</p>
-            <p class="sub" id="t1">Java/ MySQL/ Verilog</p>
+            <div class="jb-mono-regular">
+                <p class="sub" id="t1">web development/ IOS development</p>
+                <p class="sub" id="t2">Java/ MySQL/ Verilog</p>
+            </div>
+
             <a href="#contact">
                 <em>contact me</em>
             </a>
