@@ -12,145 +12,156 @@ Chang Portfolio
                 Chang
             </h1>
         </div>
-        <navbar>
-        </navbar>
     </div>
 </header>
-<div class="container main-info-section">
-    <div class="text">
-        <h1>
-            <span>H</span>
-            <span class="m-left">i</span>
-            <span class="m-left">,</span>
-            <br>
-            <span>I</span>
-            <span class="m-left">'</span>
-            <span class="m-left">m</span>
-            <span class="name">C</span>
-            <span class="m-left name">h</span>
-            <span class="m-left name">a</span>
-            <span class="m-left name">n</span>
-            <span class="m-left name">g</span>
-            <span class="m-left ">,</span>
+<div id="app">
+<navbar>
 
-            <br>
-            <br>
-            <span>F</span>
-            <span class="m-left">r</span>
-            <span class="m-left">o</span>
-            <span class="m-left">n</span>
-            <span class="m-left">t</span>
-            <span class="m-left">-</span>
-            <span class="m-left">e</span>
-            <span class="m-left">n</span>
-            <span class="m-left">d</span>
-            <br>
-            <span>D</span>
-            <span class="m-left">e</span>
-            <span class="m-left">v</span>
-            <span class="m-left">e</span>
-            <span class="m-left">l</span>
-            <span class="m-left">o</span>
-            <span class="m-left">p</span>
-            <span class="m-left">e</span>
-            <span class="m-left">r</span>
-            <span class="m-left">.</span>
-        </h1>
-        <div class="jb-mono-regular">
-            <p class="sub" id="t1">web development/ IOS development</p>
-            <p class="sub" id="t2">Java/ MySQL/ Verilog</p>
-        </div>
+</navbar>
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">C</span>
+                <span class="m-left name">h</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">g</span>
+                <span class="m-left ">,</span>
 
-        <a href="#contact">
-            <em>contact me</em>
-        </a>
-        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-    </div>
-    <figure class="profile-image">
-        <img src="{{ url_for('static', filename='images/profile-image.jpg') }}" alt="personal image">
-    </figure>
-</div>
-<div class="container about" id="about">
-    <h1>About</h1>
-    <div class="about-me-info">
-        <p> I am a forth-year undergraduate student at Carleton University, where I found my pasion in web design and
-            web development.</p>
-        <p> I am an organized, result-orientated person who is committed to get the job done.</p>
-        <p> Outside of work, I live it up by kickboxing, and asian-food cooking. I tend to combine the beauty of
-            calligraphy into the front-end web design.</p>
-        <p> I am interested in the entire front end spectrum and working on ambitious projects with positive people.</p>
-    </div>
-</div>
-<div class="container skills" id="testimonials">
-    <h1>Testimonials</h1>
-    <p class="skills-info"> "I’ve been consistently impressed by her organizational skills and grace as well as focus
-        under pressure. She strives to achieve her objectives and deliver on time, showing a capacity to learn quickly
-        in a fast-paced environment. ".
-    <p class="quote"> --Marc Lanoue, Engineering Product Manager, Faiveley Vapor Rail (a Wabtec Company)</p>
-    <p class="skills-info"> "Chang is a smart and nice person. She worked with me as the Software Engineer Intern at
-        Vapor Rail (a Wabtec company) about one year. During that time she was responsible for software validation. I’m
-        amazed by Chang's ability to learn quickly,
-        and to finish job with high quality. As a team member, Chang always presented positive attitude at work, and all
-        of team members like to work with her. I’m happy that I had a chance to work with her, and I give her my full
-        recommendation."
-    <p class="quote">-- James Lin, Senior Software Engneer, Faiveley Vapor Rail (a Wabtec Company)</p>
-</div>
-<div class="container work" id="work">
-    <h1>Work</h1>
-    <div class="Work-category">
-        <button class="button is-danger is-light" oneclick="showRequiredCategory(this)">web-game</button>
-        <button class="button is-danger is-light" oneclick="showRequiredCategory(this)">IOS app</button>
-        <div class="image showCategory">
-            <iframe name="Framename" src="{{ url_for('game') }}" style="-webkit-transform:scale(0.8); " width="600 "
-                    height="500 " frameborder="0 " scrolling="auto " class="frame-area ">
-            </iframe>
-        </div>
+                <br>
+                <br>
+                <span>F</span>
+                <span class="m-left">r</span>
+                <span class="m-left">o</span>
+                <span class="m-left">n</span>
+                <span class="m-left">t</span>
+                <span class="m-left">-</span>
+                <span class="m-left">e</span>
+                <span class="m-left">n</span>
+                <span class="m-left">d</span>
+                <br>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">v</span>
+                <span class="m-left">e</span>
+                <span class="m-left">l</span>
+                <span class="m-left">o</span>
+                <span class="m-left">p</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+            <div class="jb-mono-regular">
+                <p class="sub" id="t1">web development/ IOS development</p>
+                <p class="sub" id="t2">Java/ MySQL/ Verilog</p>
+            </div>
 
-        <div class="image showCategory ">
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Cd_hh4xY03M" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <a href="#contact">
+                <em>contact me</em>
+            </a>
+            <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        </div>
+        <figure class="profile-image">
+            <img src="{{ url_for('static', filename='images/profile-image.jpg') }}" alt="personal image">
+        </figure>
+    </div>
+    <div class="container about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p> I am a forth-year undergraduate student at Carleton University, where I found my pasion in web design
+                and
+                web development.</p>
+            <p> I am an organized, result-orientated person who is committed to get the job done.</p>
+            <p> Outside of work, I live it up by kickboxing, and asian-food cooking. I tend to combine the beauty of
+                calligraphy into the front-end web design.</p>
+            <p> I am interested in the entire front end spectrum and working on ambitious projects with positive
+                people.</p>
         </div>
     </div>
-    <div class="container contact " id="contact ">
-        <h1>Contact</h1>'
+    <div class="container skills" id="testimonials">
+        <h1>Testimonials</h1>
+        <p class="skills-info"> "I’ve been consistently impressed by her organizational skills and grace as well as
+            focus
+            under pressure. She strives to achieve her objectives and deliver on time, showing a capacity to learn
+            quickly
+            in a fast-paced environment. ".
+        <p class="quote"> --Marc Lanoue, Engineering Product Manager, Faiveley Vapor Rail (a Wabtec Company)</p>
+        <p class="skills-info"> "Chang is a smart and nice person. She worked with me as the Software Engineer Intern at
+            Vapor Rail (a Wabtec company) about one year. During that time she was responsible for software validation.
+            I’m
+            amazed by Chang's ability to learn quickly,
+            and to finish job with high quality. As a team member, Chang always presented positive attitude at work, and
+            all
+            of team members like to work with her. I’m happy that I had a chance to work with her, and I give her my
+            full
+            recommendation."
+        <p class="quote">-- James Lin, Senior Software Engneer, Faiveley Vapor Rail (a Wabtec Company)</p>
     </div>
-</div>
-<div class="form">
-    <div class="field">
-        <label class="label">Name</label>
-        <div class="control">
-            <input class="input" type="text" placeholder="Text input">
+    <div class="container work" id="work">
+        <h1>Work</h1>
+        <div class="Work-category">
+            <button class="button is-danger is-light" oneclick="showRequiredCategory(this)">web-game</button>
+            <button class="button is-danger is-light" oneclick="showRequiredCategory(this)">IOS app</button>
+            <div class="image showCategory">
+                <iframe name="Framename" src="{{ url_for('game') }}" style="-webkit-transform:scale(0.8); " width="600 "
+                        height="500 " frameborder="0 " scrolling="auto " class="frame-area ">
+                </iframe>
+            </div>
+
+            <div class="image showCategory ">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Cd_hh4xY03M"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="container contact " id="contact ">
+            <h1>Contact</h1>'
         </div>
     </div>
-    <div class="field">
-        <label class="label">Email</label>
-        <div class="control has-icons-left has-icons-right">
-            <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-            <span class="icon is-small is-left">
+    <div class="form">
+        <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+                <input class="input" type="text" placeholder="Text input">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
+                <span class="icon is-small is-left">
                  <i class="fas fa-envelope"></i>
             </span>
-            <span class="icon is-small is-right">
+                <span class="icon is-small is-right">
                 <i class="fas fa-exclamation-triangle"></i>
             </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
         </div>
-        <p class="help is-danger">This email is invalid</p>
-    </div>
 
 
-    <div class="field">
-        <label class="label">Message</label>
-        <div class="control">
-            <textarea class="textarea" placeholder="Textarea"></textarea>
+        <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Textarea"></textarea>
+            </div>
         </div>
-    </div>
 
-    <div class="field is-grouped">
-        <div class="control">
-            <button class="button is-link">Submit</button>
-        </div>
-        <div class="control">
-            <button class="button is-link is-light">Cancel</button>
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-link">Submit</button>
+            </div>
+            <div class="control">
+                <button class="button is-link is-light">Cancel</button>
+            </div>
         </div>
     </div>
 </div>

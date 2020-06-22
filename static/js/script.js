@@ -1,4 +1,4 @@
-const spans = document.querySelectorAll('h1 span')
+ const spans = document.querySelectorAll('h1 span')
 spans.forEach(span => span.addEventListener('mouseover', function(e) {
     span.classList.add('animated', 'rubberBand')
 }))
@@ -22,7 +22,7 @@ const showRequiredCategory = event => {
     const getcategory = document.querySelector(`.category-$(getId)`)
     const categories = document.querySelectorAll('div[class^="category-"]')
 
-    for (i = 0; i < categories.length; i++) {
+    for (let i = 0; i < categories.length; i++) {
         if (categories[i].hasAttribute('class')) {
             categories[i].classList.remove('showCategory')
             categories[i].classList.add('hideCategory')
