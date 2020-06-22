@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
@@ -16,3 +16,7 @@ def game():
 @app.route('/ee')
 def ee():
     return render_template('ee.html')
+
+#@app.route('/js/<path:path>')
+#def send_js(path):
+#    return send_from_directory('dist', path)
