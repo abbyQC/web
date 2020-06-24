@@ -1,3 +1,3 @@
 // entry part of webpack
-import "./main.css";
+import "./main.scss";
 alert("Chang's Portfolio");

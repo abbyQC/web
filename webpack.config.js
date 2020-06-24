@@ -3,14 +3,17 @@ module.exports = {
     mode: "development",
     entry: "./src/index.js",
     output: {
-        filename: "main.js",
+        filename: "main.[contentHash].js",
         path: path.resolve(__dirname, "static/js")
     },
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
+                test: /\.scss$/,
+                use: ['style-loader', // 3. inject styles into dom
+                    'css-loader',     // 2. turn css into common js
+                    'sass-loader'     // 1. turns sass into css
+                ],
             },
 
         ],
