@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "dependencies": {
     "bulma": "^0.9.0",
+    "clean-webpack-plugin": "^3.0.0",
     "vue": "^2.6.11"
   },
   "main": "index.js",
   "devDependencies": {
     "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
@@ -23,7 +26,6 @@
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
-
     "type": "git",
     "url": "git+https://github.com/abbyQC/web.git"
   },
