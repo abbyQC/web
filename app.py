@@ -17,6 +17,6 @@ def game():
 def ee():
     return render_template('ee.html')
 
-#@app.route('/js/<path:path>')
+#@app.route('/js/webpack/<path:path>')
 #def send_js(path):
 #    return send_from_directory('dist', path)
