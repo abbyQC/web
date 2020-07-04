@@ -85,12 +85,6 @@ span.m-left {
     margin-left: -10px;
 }
 
-.text p {
-    letter-spacing: 3px;
-    word-spacing: 10px;
-    font-size: 0.8rem;
-}
-
 .text a {
     padding: 12px 25px;
     background-color: none;
@@ -105,10 +99,6 @@ span.m-left {
     display: inline-block;
 }
 
-.t1 .t2 {
-    font-family: "JetBrains Mono";
-    font-size: 0.8rem;
-}
 
 .text a:hover {
     color: #fff;

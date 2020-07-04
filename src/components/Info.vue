@@ -65,6 +65,9 @@
     .jb-mono-regular {
         font-family: "JetBrains Mono";
         font-size: 0.8rem;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        font-size: 0.8rem;
     }
 
 
