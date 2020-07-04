@@ -64,18 +64,9 @@ a {
 }
 
 .main-info-section {
-    height: clac(100vh - 81.6px);
+    height: clac(100vh -81.6px);
 }
 
-.text {
-    margin-top: 140px;
-}
-
-.text h1 {
-    color: #fff;
-    font-size: 3rem;
-    cursor: context-menu;
-}
 
 .text span {
     display: inline-block;
@@ -83,7 +74,7 @@ a {
 
 span:hover {
     color: #48CFAD;
-    transition: all.5s;
+    transition: all .5s;
 }
 
 span.name {
@@ -114,7 +105,7 @@ span.m-left {
     display: inline-block;
 }
 
-.t1 .t2{
+.t1 .t2 {
     font-family: "JetBrains Mono";
     font-size: 0.8rem;
 }
@@ -301,7 +292,6 @@ button.active {
 }
 
 
-
 footer hr {
     border: 0.8px solid #707070;
     width: 100%;
@@ -348,12 +338,12 @@ footer p {
     margin-left: -80px;
     margin-top: -150px;
 }
-.form{
+
+.form {
     max-width: 500px;
     margin-left: 250px;
 
 }
-
 
 
 .jb-mono-extra-bold {
@@ -364,7 +354,8 @@ footer p {
     font-style: normal;
     font-display: swap;
 }
-.jb-mono-regular{
+
+.jb-mono-regular {
     font-family: "JetBrains Mono";
     src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff') format('woff');
