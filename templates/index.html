@@ -16,7 +16,6 @@ Chang Portfolio
                 </h1>
             </div>
 
-
             <navbar v-bind:navbar="['about me', 'testimonials', 'work']">
                 <template slot-scope="data">
                     <div>
@@ -35,16 +34,9 @@ Chang Portfolio
                 <template></template>
             </info>
 
-
-            <div class="jb-mono-regular">
-                <p class="sub" id="t1">web development/ IOS development</p>
-                <p class="sub" id="t2">Java/ MySQL/ Verilog</p>
-            </div>
-
             <a href="#contact">
                 <em>contact me</em>
             </a>
-            <!--<script src="{{ url_for('static', filename='js/script.js') }}"></script>-->
         </div>
         <figure class="profile-image">
             <img src="{{ url_for('static', filename='images/profile-image.jpg') }}" alt="personal image">
