@@ -1,6 +1,6 @@
 // the application entry point
 import Vue from 'vue'
-import Navbar from './Navbar.vue'
+import Navbar from './components/Navbar.vue'
 Vue.component('navbar',Navbar);
 
 new Vue({
