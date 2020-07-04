@@ -1,7 +1,8 @@
-import Vue from 'vue';
-import navbar from './components/Navbar';
-Vue.component('narbar',navbar);
-Window.Vue = require('vue');
-var app = new Vue({
-    el:"#app"
+// the application entry point
+import Vue from 'vue'
+import Navbar from './Navbar.vue'
+Vue.component('navbar',Navbar);
+
+new Vue({
+    el:'#app'
 })
