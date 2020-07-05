@@ -10,7 +10,7 @@ html {
 }
 
 .container {
-    padding: 0px 100px 0px 100px;
+    padding: 0px 200px 0px 200px;
 }
 
 ul,
@@ -137,37 +137,12 @@ span.m-left {
     opacity: 0.5;
 }
 
-.about-me-info {
-    max-width: 800px;
-    background-color: #252627;
-    box-shadow: 0 0 1.2rem rgba(139, 130, 130, 0.25);
-    padding: 50px;
-    position: relative;
-    top: -50px;
-    left: 50%;
-    right: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-
-.about-me-info p {
-    font-size: 1.3rem;
-    color: #BEBEBE;
-}
 
 .about-me-info p:nth-child(2),
 .about-me-info p:last-child {
     margin-top: 30px;
 }
 
-.about img {
-    width: 300px;
-    position: relative;
-    top: -300px;
-    left: calc(100% - 100px);
-    right: calc(100% - 100px);
-    transform: translateX(calc(-100% + 100px));
-}
 
 .skills {
     height: 100vh;
@@ -227,7 +202,7 @@ div[class^='tag-'] p {
     padding-top: 1.5px;
 }
 
-.Work-category button {
+Work-category button {
     text-transform: capitalize;
     border: 1.5px solid #ED5565;
     padding: 10px 20px;
