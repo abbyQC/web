@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
@@ -10,7 +9,7 @@ html {
 }
 
 .container {
-    padding: 0px 200px 0px 200px;
+    /*padding: 0px 200px 0px 200px;*/
 }
 
 ul,
@@ -87,7 +86,6 @@ span.m-left {
 
 .text a {
     padding: 12px 25px;
-    background-color: none;
     border: 3px solid #ED5565;
     color: #ED5565;
     font-size: 0.8rem;

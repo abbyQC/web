@@ -18,15 +18,6 @@ module.exports = {
         extensions: ['*', '.js', '.vue', '.json']
     },
     module: {
-        /*loaders: [
-            {
-                test: /\.vue$/,
-                exclude: /(node_modules|bower_components)/,
-                use: {
-                    loader: 'vue-loader'
-                }
-            }
-        ],*/
         rules: [
             {
                 test: /\.vue$/,

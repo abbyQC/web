@@ -22,6 +22,7 @@
     .btn-primary {
         color: white;
         margin-right: 5px;
+        background: #181818;
     }
 
     .container-fluid {
