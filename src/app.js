@@ -15,10 +15,6 @@ Vue.component('about-me', AboutMe);
 Vue.component('testimonial', Testimonial);
 Vue.component('contact-form', Form);
 
-new Vue({
-    el: '#app'
-})
-
 export default new Router({
     mode: "history",
     routes: [
